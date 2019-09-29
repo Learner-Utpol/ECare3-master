@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-Care</string>
+
+    <string name="general_n_emergency">General Emergency</string>
+    <string name="medical_n_emergency">Medical Emergency</string>
+    <string name="road_n_emergency">Road  Emergency</string>
+    <string name="assault_n_emergency">Assault Emergency</string>
+    <string name="fire_n_emergency">Fire  \nEmergency</string>
+    <string name="police_n_emergency">Police  Emergency</string>
+</resources>

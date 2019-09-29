@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/toolbar_color"
+            >
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/button_color"
+                android:text="E-care"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <Button
+            android:id="@+id/conbtn"
+            android:layout_margin="100dp"
+            android:layout_gravity="center"
+            android:layout_width="190dp"
+            android:layout_height="160dp"
+            android:background="@drawable/curve_background"
+            android:drawableTop="@drawable/user"
+            android:paddingLeft="10dp"
+            android:padding="20dp"
+            android:text="Contact\n with some one"
+            android:textSize="18sp"
+            android:textColor="@color/text_color"
+            />
+
+
+        <Button
+
+            android:id="@+id/prbtn"
+            android:layout_width="190dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/curve_background"
+            android:drawableTop="@drawable/primary"
+            android:drawableTint="@color/icon_color"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:text="Primary\n tips"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</layout>
